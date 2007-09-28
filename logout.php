@@ -1,0 +1,10 @@
+<?php
+session_start();
+include("./style/top.html");
+session_unset();
+session_destroy();
+?>
+OK
+<?php
+include("./style/bottom.html");
+?>
